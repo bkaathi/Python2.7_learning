@@ -3,7 +3,7 @@ import requests
 while 1:
     address = raw_input("Address: ")
     url = "https://maps.googleapis.com/maps/api/geocode/json?"
-    param = {'address': address, 'key': 'AIzaSyC44dHZMbf3mXiD60v7oF0F3_W-f7W0U3E'}
+    param = {'address': address, 'key': ''}
     json_data = requests.get(url, param).json()
 #    print json_data
 
